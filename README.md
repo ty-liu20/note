@@ -15,6 +15,22 @@
 * 2.树（树模型decision->random forest）
 * 3.神经网络（定好超参，通过不断减少loss来优化模型，层数够多就叫做深度学习）
 
+* vim脚本
+* 1.使用所有已经定义的变量都要用$,${}可以对变量进行一些操作，向量是小括号，$（（））可以进行数值运算，向量名【】表示提取向量中的数据
+* 2.示例
+* #!/bin/bash
+* cd bash_homework
+* for name in `ls`
+* do
+* if [ -f $name ]; then
+* echo $name >> filenames.txt
+* else [ -d $name ]
+* echo $name >> dirname.txt
+* fi
+* done
+* exit 0
+
+
 * # 生物信息学学习计划
 
 ## 目标
